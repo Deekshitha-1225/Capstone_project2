@@ -6,7 +6,7 @@ import base64
 from io import BytesIO
 from statsmodels.tsa.seasonal import seasonal_decompose
 
-data = pd.read_csv("C:\\Users\\saira\\OneDrive\\Desktop\\ipbl\\nifty\\niftydata20yrs.csv")
+data = pd.read_csv("C:\\Users\\Desktop\\ipbl\\nifty\\niftydata20yrs.csv")
 data.set_index('Year', inplace=True)
 
 def generate_plot(year):
