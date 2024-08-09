@@ -5,7 +5,7 @@ from statsmodels.tsa.stattools import acf
 from statsmodels.tsa.arima.model import ARIMA
 from flask import Flask, render_template, request
 app = Flask(__name__)
-data=pd.read_csv("C:\\Users\\saira\\OneDrive\\Desktop\\ipbl\\nifty\\niftydata20yrs.csv")
+data=pd.read_csv("C:\\Users\\Desktop\\ipbl\\nifty\\niftydata20yrs.csv")
  
 def forecast_data(numsteps):
     d = 0
